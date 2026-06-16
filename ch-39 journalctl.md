@@ -1287,4 +1287,4 @@ journalctl -u ssh -f
 - **`journalctl`** is the modern Systemd logging utility that stores centralized binary logs.
 - `/var/log` is useful for direct file-based log monitoring with commands like `cat`, `grep`, and `tail`.
 - `journalctl` provides advanced filtering by service, boot session, priority, and time.
-- In modern Linux production environments, administrators commonly use **both**: `/var/log` for application-specific logs and `journalctl` for system and service troubleshooting.
+- In modern Linux production environments, administrators commonly use **both**: `/var/log` for application-specific logs and `journalctl` for system and service troubleshooting.CH-40
